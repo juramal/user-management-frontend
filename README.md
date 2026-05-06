@@ -44,7 +44,7 @@ Interface web para gerenciamento de usuários, com páginas de cadastro, login e
 ## 📋 Pré-requisitos
 
 - Navegador web moderno (Chrome, Firefox, Edge, Safari)
-- Backend rodando (veja [user-management-backend](https://github.com/seu-usuario/user-management-backend))
+- Backend rodando (veja [user-management-backend](https://github.com/juramal/user-management-backend))
 
 ## 🚀 Instalação e Uso
 
@@ -52,7 +52,7 @@ Interface web para gerenciamento de usuários, com páginas de cadastro, login e
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/user-management-frontend.git
+git clone https://github.com/juramal/user-management-frontend.git
 cd user-management-frontend
 ```
 
@@ -294,7 +294,7 @@ Verifique:
 ## 🔗 Integração com Backend
 
 Este frontend foi projetado para consumir a API em:
-- **Repositório Backend**: https://github.com/seu-usuario/user-management-backend
+- **Repositório Backend**: https://github.com/juramal/user-management-backend
 
 ### Endpoints Utilizados
 
