@@ -3,9 +3,19 @@
   "version": "1.0.0",
   "description": "Interface web para gerenciamento de usuários",
   "scripts": {
-    "dev": "echo 'Abra o arquivo index.html no navegador ou use Live Server do VS Code'"
+    "dev": "echo 'Abra o arquivo index.html no navegador ou use Live Server do VS Code'",
+    "test": "echo \"Warning: no test specified yet\" && exit 0",
+    "validate": "echo 'Validating HTML files...' && npx html-validate *.html || true",
+    "lint": "echo \"Warning: no linter configured yet\"",
+    "format": "echo \"Warning: no formatter configured yet\""
   },
   "keywords": ["html", "css", "javascript", "frontend"],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "html-validate": "^8.9.1",
+    "semantic-release": "^23.0.0"
+  }
 }
