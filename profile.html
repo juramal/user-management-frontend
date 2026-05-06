@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Perfil</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="profile-header">
+      <h2>👤 Meu Perfil</h2>
+      <p id="welcomeMessage">Carregando...</p>
+    </div>
+
+    <div id="alertContainer"></div>
+
+    <form id="profileForm">
+      <div class="form-group">
+        <label for="fullName">Nome Completo</label>
+        <input 
+          type="text" 
+          id="fullName" 
+          name="fullName" 
+          placeholder="Digite seu nome completo"
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="birthDate">Data de Nascimento</label>
+        <input 
+          type="date" 
+          id="birthDate" 
+          name="birthDate" 
+          required
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input 
+          type="email" 
+          id="email" 
+          name="email" 
+          placeholder="seu@email.com"
+          required
+        >
+      </div>
+
+      <hr style="margin: 30px 0; border: none; border-top: 1px solid #e0e0e0;">
+
+      <p style="color: #666; font-size: 14px; margin-bottom: 15px;">
+        💡 Deixe em branco se não quiser alterar a senha
+      </p>
+
+      <div class="form-group">
+        <label for="currentPassword">Senha Atual (obrigatório para mudar senha)</label>
+        <input 
+          type="password" 
+          id="currentPassword" 
+          name="currentPassword" 
+          placeholder="Senha atual"
+        >
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="password">Nova Senha</label>
+          <input 
+            type="password" 
+            id="password" 
+            name="password" 
+            placeholder="Nova senha"
+            minlength="6"
+          >
+        </div>
+
+        <div class="form-group">
+          <label for="confirmPassword">Confirmar Nova Senha</label>
+          <input 
+            type="password" 
+            id="confirmPassword" 
+            name="confirmPassword" 
+            placeholder="Confirmar senha"
+            minlength="6"
+          >
+        </div>
+      </div>
+
+      <button type="submit" class="btn" id="submitBtn">
+        💾 Salvar Alterações
+      </button>
+
+      <button type="button" class="btn btn-secondary" id="logoutBtn">
+        🚪 Sair
+      </button>
+
+      <button type="button" class="btn btn-danger" id="deleteBtn">
+        🗑️ Deletar Conta
+      </button>
+    </form>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/profile.js"></script>
+</body>
+</html>

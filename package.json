@@ -1,0 +1,11 @@
+{
+  "name": "user-management-frontend",
+  "version": "1.0.0",
+  "description": "Interface web para gerenciamento de usuários",
+  "scripts": {
+    "dev": "echo 'Abra o arquivo index.html no navegador ou use Live Server do VS Code'"
+  },
+  "keywords": ["html", "css", "javascript", "frontend"],
+  "author": "",
+  "license": "MIT"
+}
