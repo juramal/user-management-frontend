@@ -1,4 +1,4 @@
-# 🎨 Frontend - Sistema de Gerenciamento de Usuários
+## 🎨 Frontend - Sistema de Gerenciamento de Usuários
 
 Interface web para gerenciamento de usuários, com páginas de cadastro, login e edição de perfil. Desenvolvido com HTML5, CSS3 e JavaScript vanilla.
 
