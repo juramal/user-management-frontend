@@ -1,6 +1,6 @@
 {
   "name": "user-management-frontend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Interface web para gerenciamento de usuários",
   "scripts": {
     "dev": "echo 'Abra o arquivo index.html no navegador ou use Live Server do VS Code'",
@@ -9,7 +9,12 @@
     "lint": "echo \"Warning: no linter configured yet\"",
     "format": "echo \"Warning: no formatter configured yet\""
   },
-  "keywords": ["html", "css", "javascript", "frontend"],
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "frontend"
+  ],
   "author": "",
   "license": "MIT",
   "devDependencies": {
